@@ -11,29 +11,40 @@
   <body>
     <img src="img/favorite-things.jpg" alt="Favorite Things">
     <h1>What is your favorite...</h1>
-    <form id="favorite-things">
-      <div class="form-group">
-        <label for="food">Food?</label>
-        <input id="food" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="animal">Animal?</label>
-        <input id="animal" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="band">Band?</label>
-        <input id="band" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="sport">Sport?</label>
-        <input id="sport" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="movie">Movie?</label>
-        <input id="movie" class="form-control" type="text">
-      </div>
-      <button type="submit" class="btn btn-success" id="submit">Submit</button>
-    </form>
-
+    <div id="favorite-things">
+      <form>
+        <div class="form-group">
+          <label for="food">Food?</label>
+          <input id="food" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="animal">Animal?</label>
+          <input id="animal" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="band">Band?</label>
+          <input id="band" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="sport">Sport?</label>
+          <input id="sport" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="movie">Movie?</label>
+          <input id="movie" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-success" id="submit">Submit</button>
+      </form>
+    </div>
+    <div id="results">
+      <h2>Here is a list of your favorite things:</h2>
+      <ul>
+        <li><span class="animal"></span></li>
+        <li><span class="food"></span></li>
+        <li><span class="band"></span></li>
+        <li><span class="sport"></span></li>
+        <li><span class="movie"></span></li>
+      </ul>
+    </div>
   </body>
 </html>

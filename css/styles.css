@@ -25,3 +25,8 @@ img {
 #submit {
   margin-top: 10px;
 }
+
+#results {
+  padding: 30px;
+  display: none;
+}
