@@ -1,0 +1,27 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  padding-left: 30px;
+}
+
+img {
+  margin-top: 110px;
+  margin-right: 20px;
+  margin-left: 20px;
+  float: right;
+}
+
+.form-control {
+  width: 50%;
+}
+
+#favorite-things {
+  padding: 30px;
+}
+
+#submit {
+  margin-top: 10px;
+}
